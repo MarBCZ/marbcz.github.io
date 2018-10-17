@@ -1,0 +1,168 @@
+ /**
+   * @license
+   * MyFonts Webfont Build ID 3202327, 2016-04-11T13:27:20-0400
+   * 
+   * The fonts listed in this notice are subject to the End User License
+   * Agreement(s) entered into by the website owner. All other parties are 
+   * explicitly restricted from using the Licensed Webfonts(s).
+   * 
+   * You may obtain a valid license at the URLs below.
+   * 
+   * Webfont: URWGeometric-Regular by URW++
+   * URL: http://www.myfonts.com/fonts/urw/geometric/regular/
+   * 
+   * Webfont: URWGeometric-Bold by URW++
+   * URL: http://www.myfonts.com/fonts/urw/geometric/bold/
+   * 
+   * Webfont: URWGeometric-Black by URW++
+   * URL: http://www.myfonts.com/fonts/urw/geometric/black/
+   * 
+   * 
+   * License: http://www.myfonts.com/viewlicense?type=web&buildid=3202327
+   * Licensed pageviews: 20,000
+   * Webfonts copyright: (URW)++,Copyright 2015 by (URW)++ Design &amp; Development
+   * 
+   * © 2016 MyFonts Inc
+  */
+
+body {
+  border-top: 10px solid #001835;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  color: #001835;
+  font-family: 'Cardo';
+}
+article {
+  margin: 0 0 0 1rem;
+}
+hr {
+  height: 5px;
+  background-color: black;
+  margin: 1rem 1rem 0 1rem;
+  max-width: 45rem;
+}
+a.jobHistory {
+  margin: 2rem 1rem 1rem 1rem;
+  display: inline-block;
+}
+h3.faq {
+  margin: 0 1rem;
+}
+h3.faq + p {
+  margin: 1rem;
+}
+#head {
+  width: 97%;
+  text-align: right;
+  padding: 1.5%;
+}
+#footer {
+  padding: 1rem 0;
+  background: #001835;
+  color: #fff;
+}
+#footer hr {
+  background: #fff;
+}
+
+/* FONTS */
+@import url("//hello.myfonts.net/count/30dd17");
+@font-face {
+    font-family: 'URWGeometric-Regular';
+    src: url('/fonts/30DD17_0_0.eot');
+    src: url('/fonts/30DD17_0_0.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/30DD17_0_0.woff2') format('woff2'),
+         url('/fonts/30DD17_0_0.woff') format('woff'),
+         url('/fonts/30DD17_0_0.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'URWGeometric-Black';
+  src: url('fonts/30DD17_2_0.eot');
+  src: url('fonts/30DD17_2_0.eot#iefix') format('embedded-opentype'),
+       url('fonts/30DD17_2_0.woff2') format('woff2'),
+       url('fonts/30DD17_2_0.woff') format('woff'),
+       url('fonts/30DD17_2_0.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'URWGeometric-Bold';
+    src: url('/fonts/30DD17_1_0.eot');
+    src: url('/fonts/30DD17_1_0.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/30DD17_1_0.woff2') format('woff2'),
+         url('/fonts/30DD17_1_0.woff') format('woff'),
+         url('/fonts/30DD17_1_0.ttf') format('truetype');
+}
+
+h1, h2, h3, h4, small {
+  font-family: 'URWGeometric-Black', sans-serif;
+}
+
+h1 {
+  margin: 2rem 1rem;;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+h2 {
+  margin: 0 0 0 1rem;
+  font-size: 1.9rem;
+}
+       
+h3 {
+  font-family: 'URWGeometric-Black', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+h4 {
+  font-family: 'Cardo', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-top: 0.7rem;
+}
+p:first-of-type {
+  margin: 0;
+}
+p {
+  margin: .7rem 0;
+  max-width: 45rem;
+}
+a {
+  background: linear-gradient(to bottom, #fff 0%, #fff 82%, #00DC9A 83%, #00DC9A 85%, #fff 87%, #fff 100%);
+  text-decoration: none;
+  text-shadow: 0.5px 0px #fff, -0.5px 0px #fff, 1.1px 0px #fff, -1.1px 0px #fff;
+  color: #00DC9A;
+}
+article a {
+  line-height: 2rem;
+}
+a:hover, a:active {
+  background: linear-gradient(to bottom, #fff 0%, #fff 82%, rgba(120,152,167,1) 83%, rgba(120,152,167,1) 85%, #fff 87%, #fff 100%);
+  text-decoration: none;
+  text-shadow: 0.5px 0px #fff, -0.5px 0px #fff, 1.1px 0px #fff, -1.1px 0px #fff;
+  color: rgba(120,152,167,1);
+}
+#footer a {
+  background: linear-gradient(to bottom, #001835 0%, #001835 82%, #00DC9A 83%, #00DC9A 85%, #001835 87%, #001835 100%);
+  text-decoration: none;
+  text-shadow: 0.5px 0px #001835, -0.5px 0px #001835, 1.1px 0px #001835, -1.1px 0px #001835;
+  color: #00DC9A;
+}
+#footer a:hover {
+  background: linear-gradient(to bottom, #001835 0%, #001835 82%, rgba(120,152,167,1) 83%, rgba(120,152,167,1) 85%, #001835 87%, #001835 100%);
+  text-decoration: none;
+  text-shadow: 0.5px 0px #001835, -0.5px 0px #001835, 1.1px 0px #001835, -1.1px 0px #001835;
+  color: rgba(120,152,167,1);
+}
+strong {
+  background-color: rgba(0,220,154,1);
+}
+small {
+  font-family: 'URWGeometric-Regular', sans-serif;
+  font-size: 0.7rem;
+  line-height: 0.5rem;
+  margin: 0;
+  padding: 0;
+}

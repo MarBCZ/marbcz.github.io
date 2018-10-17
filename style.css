@@ -62,6 +62,9 @@ h3.faq + p {
   background: #001835;
   color: #fff;
 }
+#footer p {
+  margin: 1rem;
+}
 #footer hr {
   background: #fff;
 }

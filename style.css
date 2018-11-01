@@ -57,6 +57,9 @@ h3.faq + p {
   text-align: right;
   padding: 1.5%;
 }
+#head ul {
+  list-style: none;
+}
 #footer {
   padding: 1rem 0;
   background: #001835;

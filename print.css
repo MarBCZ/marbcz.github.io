@@ -28,23 +28,17 @@
 body {
   border-top: 10px solid #001835;
   padding: 0;
-  margin: 0;
-  font-size: 18px;
+  font-size: 16px;
   color: #001835;
   font-family: 'Cardo';
 }
 article {
   margin: 0 0 0 1rem;
-}
-hr {
-  height: 5px;
-  background-color: black;
-  margin: 1rem 1rem 0 1rem;
-  max-width: 45rem;
+  display: block !important;
 }
 a.jobHistory {
   margin: 2rem 1rem 1rem 1rem;
-  display: inline-block;
+  display: none;
 }
 h3.faq {
   margin: 0 1rem;
@@ -58,15 +52,7 @@ h3.faq + p {
   padding: 1.5%;
 }
 #footer {
-  padding: 1rem 0;
-  background: #001835;
-  color: #fff;
-}
-#footer p {
-  margin: 1rem;
-}
-#footer hr {
-  background: #fff;
+  display: none;
 }
 
 /* FONTS */
@@ -103,25 +89,29 @@ h1, h2, h3, h4, small {
 
 h1 {
   margin: 2rem 1rem;;
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 32px;
+  line-height: 32px;
 }
 
 h2 {
   margin: 0 0 0 1rem;
-  font-size: 1.9rem;
+  font-size: 24px;
+}
+
+h2 + article h3 {
+  margin: 24px 0 0 0;
 }
        
 h3 {
-  font-family: 'URWGeometric-Black', sans-serif;
-  font-size: 1.3rem;
-  line-height: 1.7rem;
-  margin: 1rem 0 0 0;
+  font-family: 'URWGeometric-Bold', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 48px 0 0 0;
   padding: 0;
 }
 h4 {
   font-family: 'Cardo', sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   margin-bottom: 0;
   margin-top: 0.7rem;
 }
@@ -147,6 +137,11 @@ a:hover, a:active {
   text-shadow: 0.5px 0px #fff, -0.5px 0px #fff, 1.1px 0px #fff, -1.1px 0px #fff;
   color: rgba(120,152,167,1);
 }
+a:after {
+  content: attr(data-url);
+  background: none;
+  color: #001835;
+}
 #footer a {
   background: linear-gradient(to bottom, #001835 0%, #001835 82%, #00DC9A 83%, #00DC9A 85%, #001835 87%, #001835 100%);
   text-decoration: none;
@@ -164,14 +159,12 @@ strong {
 }
 small {
   font-family: 'URWGeometric-Regular', sans-serif;
-  font-size: 0.7rem;
-  line-height: 0.5rem;
+  font-size: 12px;
+  line-height: 12px;
   margin: 0;
   padding: 0;
 }
-.hide {
+.js {
   display: none;
 }
-.show {
-  display: block;
-}
+

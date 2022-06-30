@@ -37,8 +37,8 @@ article {
   margin: 0 1rem;
 }
 hr {
-  height: 5px;
-  background-color: black;
+  border: none;
+  border-top: 5px solid #001835;
   margin: 1rem 1rem 0 1rem;
   max-width: 45rem;
 }
@@ -107,6 +107,7 @@ h3.faq + p {
 
 h1, h2, h3, h4, small {
   font-family: 'URWGeometric-Black', sans-serif;
+  font-weight: normal;
 }
 
 h1 {

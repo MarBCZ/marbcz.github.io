@@ -297,7 +297,7 @@
           this.removeEventListener( 'click', showHiddenHistory );
           this.addEventListener( 'click', hideHiddenHistory );
         };
-        // Hide long label
+        // Hide long label at jobs
         for (i = 0; jobs.length > i; i++) {
           let readMore = createMore(),
               showHistory = document.createElement( 'a' ),
@@ -309,7 +309,7 @@
           hide( boring[i] );
           readMore.addEventListener( 'click', showMore );
           jobs[i].appendChild( readMore );
-          // append load more button at the end of the loop
+          // append load more jobs button at the end of the loop
           if ( i > 3 ) {
             hide( jobs[i] )
             if ( i === jobs.length - 1 ) {
